@@ -4,7 +4,6 @@
 #include <string>
 #include <istream>
 
-// Simple tokenizer used by the Parser implementation in src/parser.
 class Tokenizer {
 public:
     Tokenizer() = default;

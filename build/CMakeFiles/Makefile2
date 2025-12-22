@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edgar/vscode/OOP_course
+CMAKE_SOURCE_DIR = /home/edgar/vscode/Power_point-_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edgar/vscode/OOP_course/build
+CMAKE_BINARY_DIR = /home/edgar/vscode/Power_point-_project/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/run_tests.dir/clean
 CMakeFiles/SlideEditor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideEditor.dir/build.make CMakeFiles/SlideEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideEditor.dir/build.make CMakeFiles/SlideEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target SlideEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target SlideEditor"
 .PHONY : CMakeFiles/SlideEditor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SlideEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/OOP_course/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/Power_point-_project/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SlideEditor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/OOP_course/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/Power_point-_project/build/CMakeFiles 0
 .PHONY : CMakeFiles/SlideEditor.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/SlideEditor.dir/clean:
 CMakeFiles/run_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=13 "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=14 "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/OOP_course/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/Power_point-_project/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/OOP_course/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/Power_point-_project/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.

@@ -31,6 +31,7 @@ set(SOURCES
     src/core/SlideRepository.cpp
     src/commands/Commands.cpp
     src/serialization/JsonSerializer.cpp
+    src/serialization/SvgSerializer.cpp
     src/parser/Lexer.cpp
     src/parser/Parser.cpp
     src/parser/Tokenizer.cpp

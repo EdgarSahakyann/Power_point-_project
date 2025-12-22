@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edgar/vscode/OOP_course
+CMAKE_SOURCE_DIR = /home/edgar/vscode/Power_point-_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edgar/vscode/OOP_course/build
+CMAKE_BINARY_DIR = /home/edgar/vscode/Power_point-_project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/edgar/vscode/OOP_course/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/edgar/vscode/Power_point-_project/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,9 +152,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/OOP_course/build/CMakeFiles /home/edgar/vscode/OOP_course/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/Power_point-_project/build/CMakeFiles /home/edgar/vscode/Power_point-_project/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/OOP_course/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/vscode/Power_point-_project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -471,6 +471,30 @@ src/serialization/JsonSerializer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideEditor.dir/build.make CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.s
 .PHONY : src/serialization/JsonSerializer.cpp.s
 
+src/serialization/SvgSerializer.o: src/serialization/SvgSerializer.cpp.o
+.PHONY : src/serialization/SvgSerializer.o
+
+# target to build an object file
+src/serialization/SvgSerializer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideEditor.dir/build.make CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o
+.PHONY : src/serialization/SvgSerializer.cpp.o
+
+src/serialization/SvgSerializer.i: src/serialization/SvgSerializer.cpp.i
+.PHONY : src/serialization/SvgSerializer.i
+
+# target to preprocess a source file
+src/serialization/SvgSerializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideEditor.dir/build.make CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.i
+.PHONY : src/serialization/SvgSerializer.cpp.i
+
+src/serialization/SvgSerializer.s: src/serialization/SvgSerializer.cpp.s
+.PHONY : src/serialization/SvgSerializer.s
+
+# target to generate assembly for a file
+src/serialization/SvgSerializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideEditor.dir/build.make CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.s
+.PHONY : src/serialization/SvgSerializer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -520,6 +544,9 @@ help:
 	@echo "... src/serialization/JsonSerializer.o"
 	@echo "... src/serialization/JsonSerializer.i"
 	@echo "... src/serialization/JsonSerializer.s"
+	@echo "... src/serialization/SvgSerializer.o"
+	@echo "... src/serialization/SvgSerializer.i"
+	@echo "... src/serialization/SvgSerializer.s"
 .PHONY : help
 
 

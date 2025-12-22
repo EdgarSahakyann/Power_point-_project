@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o.d"
   "CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o"
   "CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o.d"
+  "CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o"
+  "CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o.d"
   "bin/SlideEditor"
   "bin/SlideEditor.pdb"
 )

@@ -28,7 +28,6 @@ public:
     void addShape(std::unique_ptr<IShape> shape);
     void removeText(std::size_t index);
     void removeShape(std::size_t index);
-    // Take and insert helpers for undo/redo
     Text takeText(std::size_t index);
     void insertText(std::size_t index, const Text& text);
     std::unique_ptr<IShape> takeShape(std::size_t index);

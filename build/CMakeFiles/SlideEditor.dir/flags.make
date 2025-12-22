@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/edgar/vscode/OOP_course/include -I/home/edgar/vscode/OOP_course/external
+CXX_INCLUDES = -I/home/edgar/vscode/Power_point-_project/include -I/home/edgar/vscode/Power_point-_project/external
 
 CXX_FLAGS = -g -std=c++17 -Wall -Wextra -Wpedantic
 

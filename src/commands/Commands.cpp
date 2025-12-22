@@ -37,7 +37,6 @@ void AddTextCommand::execute() {
         text.color = color_;
         text.lineWidth = lineWidth_;
         slide->addText(text);
-        // record index of added text (last element)
         addedIndex_ = slide->getTexts().size() - 1;
         std::cout << "Added text to slide " << slideId_ << " at index " << addedIndex_ << std::endl;
     } 

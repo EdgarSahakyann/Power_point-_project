@@ -4,7 +4,6 @@
 #include <vector>
 #include <string>
 
-// Lexer uses the shared Token type declared in Token.hpp
 class Lexer {
 public:
     std::vector<Token> tokenize(const std::vector<std::string>& words) const;

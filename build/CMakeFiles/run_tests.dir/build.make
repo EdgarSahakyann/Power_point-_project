@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edgar/vscode/OOP_course
+CMAKE_SOURCE_DIR = /home/edgar/vscode/Power_point-_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edgar/vscode/OOP_course/build
+CMAKE_BINARY_DIR = /home/edgar/vscode/Power_point-_project/build
 
 # Utility rule file for run_tests.
 
@@ -67,8 +67,8 @@ include CMakeFiles/run_tests.dir/compiler_depend.make
 include CMakeFiles/run_tests.dir/progress.make
 
 CMakeFiles/run_tests:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running SlideEditor tests"
-	./bin/SlideEditor < /home/edgar/vscode/OOP_course/test_commands.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running SlideEditor tests"
+	./bin/SlideEditor < /home/edgar/vscode/Power_point-_project/test_commands.txt
 
 run_tests: CMakeFiles/run_tests
 run_tests: CMakeFiles/run_tests.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/edgar/vscode/OOP_course/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edgar/vscode/OOP_course /home/edgar/vscode/OOP_course /home/edgar/vscode/OOP_course/build /home/edgar/vscode/OOP_course/build /home/edgar/vscode/OOP_course/build/CMakeFiles/run_tests.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/edgar/vscode/Power_point-_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edgar/vscode/Power_point-_project /home/edgar/vscode/Power_point-_project /home/edgar/vscode/Power_point-_project/build /home/edgar/vscode/Power_point-_project/build /home/edgar/vscode/Power_point-_project/build/CMakeFiles/run_tests.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/run_tests.dir/depend
 

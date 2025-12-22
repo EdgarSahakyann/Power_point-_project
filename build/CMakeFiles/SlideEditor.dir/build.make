@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edgar/vscode/OOP_course
+CMAKE_SOURCE_DIR = /home/edgar/vscode/Power_point-_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edgar/vscode/OOP_course/build
+CMAKE_BINARY_DIR = /home/edgar/vscode/Power_point-_project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SlideEditor.dir/depend.make
@@ -70,158 +70,172 @@ include CMakeFiles/SlideEditor.dir/progress.make
 include CMakeFiles/SlideEditor.dir/flags.make
 
 CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o: /home/edgar/vscode/OOP_course/src/core/Shape.cpp
+CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o: /home/edgar/vscode/Power_point-_project/src/core/Shape.cpp
 CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o -MF CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o -c /home/edgar/vscode/OOP_course/src/core/Shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o -MF CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.o -c /home/edgar/vscode/Power_point-_project/src/core/Shape.cpp
 
 CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/core/Shape.cpp > CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/core/Shape.cpp > CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/core/Shape.cpp -o CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/core/Shape.cpp -o CMakeFiles/SlideEditor.dir/src/core/Shape.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o: /home/edgar/vscode/OOP_course/src/core/Slide.cpp
+CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o: /home/edgar/vscode/Power_point-_project/src/core/Slide.cpp
 CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o -MF CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o -c /home/edgar/vscode/OOP_course/src/core/Slide.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o -MF CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.o -c /home/edgar/vscode/Power_point-_project/src/core/Slide.cpp
 
 CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/core/Slide.cpp > CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/core/Slide.cpp > CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/core/Slide.cpp -o CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/core/Slide.cpp -o CMakeFiles/SlideEditor.dir/src/core/Slide.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o: /home/edgar/vscode/OOP_course/src/core/SlideFactory.cpp
+CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o: /home/edgar/vscode/Power_point-_project/src/core/SlideFactory.cpp
 CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o -MF CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o -c /home/edgar/vscode/OOP_course/src/core/SlideFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o -MF CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o -c /home/edgar/vscode/Power_point-_project/src/core/SlideFactory.cpp
 
 CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/core/SlideFactory.cpp > CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/core/SlideFactory.cpp > CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/core/SlideFactory.cpp -o CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/core/SlideFactory.cpp -o CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o: /home/edgar/vscode/OOP_course/src/core/SlideRepository.cpp
+CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o: /home/edgar/vscode/Power_point-_project/src/core/SlideRepository.cpp
 CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o -MF CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o -c /home/edgar/vscode/OOP_course/src/core/SlideRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o -MF CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o -c /home/edgar/vscode/Power_point-_project/src/core/SlideRepository.cpp
 
 CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/core/SlideRepository.cpp > CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/core/SlideRepository.cpp > CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/core/SlideRepository.cpp -o CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/core/SlideRepository.cpp -o CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o: /home/edgar/vscode/OOP_course/src/commands/Commands.cpp
+CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o: /home/edgar/vscode/Power_point-_project/src/commands/Commands.cpp
 CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o -MF CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o -c /home/edgar/vscode/OOP_course/src/commands/Commands.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o -MF CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o -c /home/edgar/vscode/Power_point-_project/src/commands/Commands.cpp
 
 CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/commands/Commands.cpp > CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/commands/Commands.cpp > CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/commands/Commands.cpp -o CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/commands/Commands.cpp -o CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o: /home/edgar/vscode/OOP_course/src/serialization/JsonSerializer.cpp
+CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o: /home/edgar/vscode/Power_point-_project/src/serialization/JsonSerializer.cpp
 CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o -MF CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o -c /home/edgar/vscode/OOP_course/src/serialization/JsonSerializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o -MF CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o -c /home/edgar/vscode/Power_point-_project/src/serialization/JsonSerializer.cpp
 
 CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/serialization/JsonSerializer.cpp > CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/serialization/JsonSerializer.cpp > CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/serialization/JsonSerializer.cpp -o CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/serialization/JsonSerializer.cpp -o CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.s
+
+CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
+CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o: /home/edgar/vscode/Power_point-_project/src/serialization/SvgSerializer.cpp
+CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o -MF CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o -c /home/edgar/vscode/Power_point-_project/src/serialization/SvgSerializer.cpp
+
+CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/serialization/SvgSerializer.cpp > CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.i
+
+CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/serialization/SvgSerializer.cpp -o CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o: /home/edgar/vscode/OOP_course/src/parser/Lexer.cpp
+CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o: /home/edgar/vscode/Power_point-_project/src/parser/Lexer.cpp
 CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o -MF CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o -c /home/edgar/vscode/OOP_course/src/parser/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o -MF CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o -c /home/edgar/vscode/Power_point-_project/src/parser/Lexer.cpp
 
 CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/parser/Lexer.cpp > CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/parser/Lexer.cpp > CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/parser/Lexer.cpp -o CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/parser/Lexer.cpp -o CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o: /home/edgar/vscode/OOP_course/src/parser/Parser.cpp
+CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o: /home/edgar/vscode/Power_point-_project/src/parser/Parser.cpp
 CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o -MF CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o -c /home/edgar/vscode/OOP_course/src/parser/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o -MF CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o -c /home/edgar/vscode/Power_point-_project/src/parser/Parser.cpp
 
 CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/parser/Parser.cpp > CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/parser/Parser.cpp > CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/parser/Parser.cpp -o CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/parser/Parser.cpp -o CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o: /home/edgar/vscode/OOP_course/src/parser/Tokenizer.cpp
+CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o: /home/edgar/vscode/Power_point-_project/src/parser/Tokenizer.cpp
 CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o -MF CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o -c /home/edgar/vscode/OOP_course/src/parser/Tokenizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o -MF CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o -c /home/edgar/vscode/Power_point-_project/src/parser/Tokenizer.cpp
 
 CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/parser/Tokenizer.cpp > CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/parser/Tokenizer.cpp > CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/parser/Tokenizer.cpp -o CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/parser/Tokenizer.cpp -o CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o: /home/edgar/vscode/OOP_course/src/CommandFactory.cpp
+CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o: /home/edgar/vscode/Power_point-_project/src/CommandFactory.cpp
 CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o -MF CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o -c /home/edgar/vscode/OOP_course/src/CommandFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o -MF CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o -c /home/edgar/vscode/Power_point-_project/src/CommandFactory.cpp
 
 CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/CommandFactory.cpp > CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/CommandFactory.cpp > CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/CommandFactory.cpp -o CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/CommandFactory.cpp -o CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.s
 
 CMakeFiles/SlideEditor.dir/src/main.cpp.o: CMakeFiles/SlideEditor.dir/flags.make
-CMakeFiles/SlideEditor.dir/src/main.cpp.o: /home/edgar/vscode/OOP_course/src/main.cpp
+CMakeFiles/SlideEditor.dir/src/main.cpp.o: /home/edgar/vscode/Power_point-_project/src/main.cpp
 CMakeFiles/SlideEditor.dir/src/main.cpp.o: CMakeFiles/SlideEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SlideEditor.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/main.cpp.o -MF CMakeFiles/SlideEditor.dir/src/main.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/main.cpp.o -c /home/edgar/vscode/OOP_course/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SlideEditor.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SlideEditor.dir/src/main.cpp.o -MF CMakeFiles/SlideEditor.dir/src/main.cpp.o.d -o CMakeFiles/SlideEditor.dir/src/main.cpp.o -c /home/edgar/vscode/Power_point-_project/src/main.cpp
 
 CMakeFiles/SlideEditor.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SlideEditor.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/OOP_course/src/main.cpp > CMakeFiles/SlideEditor.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/vscode/Power_point-_project/src/main.cpp > CMakeFiles/SlideEditor.dir/src/main.cpp.i
 
 CMakeFiles/SlideEditor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SlideEditor.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/OOP_course/src/main.cpp -o CMakeFiles/SlideEditor.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/vscode/Power_point-_project/src/main.cpp -o CMakeFiles/SlideEditor.dir/src/main.cpp.s
 
 # Object files for target SlideEditor
 SlideEditor_OBJECTS = \
@@ -231,6 +245,7 @@ SlideEditor_OBJECTS = \
 "CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o" \
 "CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o" \
 "CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o" \
+"CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o" \
 "CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o" \
 "CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o" \
 "CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o" \
@@ -246,6 +261,7 @@ bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/core/SlideFactory.cpp.o
 bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/core/SlideRepository.cpp.o
 bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/commands/Commands.cpp.o
 bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/serialization/JsonSerializer.cpp.o
+bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/serialization/SvgSerializer.cpp.o
 bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/parser/Lexer.cpp.o
 bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/parser/Parser.cpp.o
 bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/parser/Tokenizer.cpp.o
@@ -253,7 +269,7 @@ bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/CommandFactory.cpp.o
 bin/SlideEditor: CMakeFiles/SlideEditor.dir/src/main.cpp.o
 bin/SlideEditor: CMakeFiles/SlideEditor.dir/build.make
 bin/SlideEditor: CMakeFiles/SlideEditor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/edgar/vscode/OOP_course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable bin/SlideEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/edgar/vscode/Power_point-_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable bin/SlideEditor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SlideEditor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -265,6 +281,6 @@ CMakeFiles/SlideEditor.dir/clean:
 .PHONY : CMakeFiles/SlideEditor.dir/clean
 
 CMakeFiles/SlideEditor.dir/depend:
-	cd /home/edgar/vscode/OOP_course/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edgar/vscode/OOP_course /home/edgar/vscode/OOP_course /home/edgar/vscode/OOP_course/build /home/edgar/vscode/OOP_course/build /home/edgar/vscode/OOP_course/build/CMakeFiles/SlideEditor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/edgar/vscode/Power_point-_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edgar/vscode/Power_point-_project /home/edgar/vscode/Power_point-_project /home/edgar/vscode/Power_point-_project/build /home/edgar/vscode/Power_point-_project/build /home/edgar/vscode/Power_point-_project/build/CMakeFiles/SlideEditor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SlideEditor.dir/depend
 
