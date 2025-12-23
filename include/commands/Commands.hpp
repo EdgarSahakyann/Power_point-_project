@@ -5,6 +5,8 @@
 #include "../core/SlideRepository.hpp"
 #include "../serialization/JsonSerializer.hpp"
 #include "../core/SlideFactory.hpp"
+#include "MetaCommand.hpp"
+#include "ActionCommand.hpp"
 
 class CreateSlideCommand : public ICommand {
 public:
@@ -131,4 +133,26 @@ public:
 
 private:
     ISlideRepository& repo_;
+};
+
+class RecordMacroCommand : public MetaCommand {
+public:
+    explicit RecordMacroCommand(const std::string& macroName = "CustomMacro");
+
+    const std::string& getMacroName() const { return macroName_; }
+    void setMacroName(const std::string& name) { macroName_ = name; }
+
+private:
+    std::string macroName_;
+};
+
+class PlayMacroCommand : public MetaCommand {
+public:
+    explicit PlayMacroCommand(const std::string& macroName = "CustomMacro");
+
+    const std::string& getMacroName() const { return macroName_; }
+    void setMacroName(const std::string& name) { macroName_ = name; }
+
+private:
+    std::string macroName_;
 };

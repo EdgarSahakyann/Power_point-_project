@@ -200,3 +200,9 @@ DisplayCommand::DisplayCommand(ISlideRepository& repo) : repo_(repo) {}
 void DisplayCommand::execute() {
     repo_.displayAll();
 }
+
+RecordMacroCommand::RecordMacroCommand(const std::string& macroName)
+    : macroName_(macroName) {}
+
+PlayMacroCommand::PlayMacroCommand(const std::string& macroName)
+    : macroName_(macroName) {}

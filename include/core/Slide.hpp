@@ -24,6 +24,7 @@ public:
     std::string getTitle() const;
     std::string getContent() const;
     std::string getTheme() const;
+    void setTitle(const std::string& title);
     void addText(const Text& text);
     void addShape(std::unique_ptr<IShape> shape);
     void removeText(std::size_t index);

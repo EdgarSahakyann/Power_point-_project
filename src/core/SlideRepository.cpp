@@ -55,3 +55,10 @@ void SlideRepository::removeSlideById(int id) {
         }
     }
 }
+
+std::vector<Slide*> SlideRepository::getAllSlides() {
+    std::vector<Slide*> result;
+    result.reserve(slides_.size());
+    for (auto& s : slides_) result.push_back(s.get());
+    return result;
+}

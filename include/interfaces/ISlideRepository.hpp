@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <vector>
 #include "../core/Slide.hpp"
 
 class ISlideRepository {
@@ -13,4 +14,5 @@ public:
     virtual void clear() = 0;
     virtual void moveSlide(std::size_t fromIndex, std::size_t toIndex) = 0;
     virtual void removeSlideById(int id) = 0;
+    virtual std::vector<Slide*> getAllSlides() = 0;
 };

@@ -13,6 +13,7 @@ public:
     void clear() override;
     void moveSlide(std::size_t fromIndex, std::size_t toIndex) override;
     void removeSlideById(int id) override;
+    std::vector<Slide*> getAllSlides() override;
 
 private:
     std::vector<std::unique_ptr<Slide>> slides_;

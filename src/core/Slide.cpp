@@ -23,6 +23,8 @@ std::string Slide::getTitle() const { return title_; }
 std::string Slide::getContent() const { return content_; }
 std::string Slide::getTheme() const { return theme_; }
 
+void Slide::setTitle(const std::string& title) { title_ = title; }
+
 void Slide::addText(const Text& text) { 
     texts_.push_back(text);
 }

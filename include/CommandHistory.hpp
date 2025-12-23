@@ -15,7 +15,12 @@ public:
     }
 
     bool canUndo() const { return !undo_.empty(); }
+
     bool canRedo() const { return !redo_.empty(); }
+
+    std::size_t getUndoCount() const { return undo_.size(); }
+
+    std::size_t getRedoCount() const { return redo_.size(); }
 
     void undo() {
         if (undo_.empty()) return;
@@ -31,6 +36,11 @@ public:
         redo_.pop();
         cmd->execute();
         undo_.push(std::move(cmd));
+    }
+
+    void clear() {
+        while (!undo_.empty()) undo_.pop();
+        while (!redo_.empty()) redo_.pop();
     }
 
 private:
